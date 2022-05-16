@@ -1,0 +1,13 @@
+$default-font-size: 1rem;
+$main-font: "Outfit",
+sans-serif;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: ("small": 30rem,
+	"medium": 48rem,
+	"large": 80rem,
+	"max": 80rem,
+	"2k": 160rem,
+	"4k": 240rem) !default;
